@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 studyanalysisButton.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
                 FragmentManager fragmentManager = getSupportFragmentManager();
                 FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.fragment, new MonthStudyFragment());
+                fragmentTransaction.replace(R.id.fragment, new StudyAnalysisFragment());
                 fragmentTransaction.commit();
             }
         });

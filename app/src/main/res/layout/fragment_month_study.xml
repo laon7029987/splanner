@@ -9,6 +9,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="월간 학습 관리" />
+        android:text="월간 학습" />
 
 </FrameLayout>
